@@ -4,6 +4,6 @@
  * $console->setDirectoryTask($newPathDir);
  */
 namespace {
-    require "vendor/mga/console/core/Console.php";
+    require "core/Console.php";
     $console = new \core\Console($argv);
 }
