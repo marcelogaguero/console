@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2b9c3b2-c03f-4a21-81e1-507520e088f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console" afterPath="$PROJECT_DIR$/console" />
     </list>
     <ignored path="console.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="console" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="230" selection-end="230" vertical-scroll-proportion="0.1904762">
+            <state line="6" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="-3.75">
               <folding>
                 <element signature="e#6#124#0" expanded="true" />
               </folding>
@@ -45,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="6" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.14040561">
               <folding />
             </state>
           </provider>
@@ -333,7 +332,11 @@
       <created>1366740052700</created>
       <updated>1366740052700</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Composer">
+      <created>1366740138679</created>
+      <updated>1366740138679</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -431,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/Test2Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="32" selection-start="374" selection-end="374" vertical-scroll-proportion="-10.625">
@@ -483,10 +479,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="230" selection-end="230" vertical-scroll-proportion="0.1904762">
+        <state line="6" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="-3.75">
           <folding>
             <element signature="e#6#124#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.14040561">
+          <folding />
         </state>
       </provider>
     </entry>
