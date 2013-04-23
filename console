@@ -3,9 +3,7 @@
  * Nota: Para cambiar el directorio donde se encuentran las tareas
  * $console->setDirectoryTask($newPathDir);
  */
-
-require_once __DIR__."/core/Console.php";
-
-use \core\Console;
-$console = new Console($argv);
-
+namespace {
+    require "vendor/mga/console/core/Console.php";
+    $console = new \core\Console($argv);
+}
