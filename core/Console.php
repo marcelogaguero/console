@@ -34,7 +34,7 @@ class Console
         $task = $this->getTaskByName($argv[1]);
 
         if($task != false){
-            $task->execute($this->getOptions($argv), $this->getParametes($argv));
+            $task->run($this->getOptions($argv), $this->getParametes($argv));
         } else {
             echo "No existe la tarea.\n";
         }
@@ -56,6 +56,7 @@ class Console
     private function getParametes($argv){
         $argv = array_slice($argv,2,count($argv));
         $options = array();
+
         foreach($argv as $arg){
             if(substr($arg, 0, 1) != '-'){
                 $options[] = $arg;
@@ -114,29 +115,22 @@ class Console
     }
 
     private function getTaskByName($taskname){
-        foreach($this->tasks as $group){
-            foreach($group as $task){
-                if(strtoupper($task->getName()) == strtoupper($taskname)){
+
+        list($groupname, $name) = explode(':',$taskname);
+
+        if(isset($this->tasks[$groupname])){
+            foreach($this->tasks[$groupname] as $task){
+                if(strtoupper($task->getName()) == strtoupper($name)){
                     return $task;
                 }
             }
         }
+
         return false;
     }
 
     protected function init() {
         $this->loadTask();
         $this->execute();
-        /*
-        $argv = getopt("M:G");
-
-        $fp = fopen("php://stdin", "r"); $in = '';
-        while($in != "chelo") {
-            echo "php> ";
-            $in=trim(fgets($fp));
-            eval ($in);
-            echo "\n";
-        }
-        */
     }
 }

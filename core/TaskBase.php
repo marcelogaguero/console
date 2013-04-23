@@ -118,4 +118,41 @@ abstract class TaskBase
         return $help."\n";
     }
 
+
+
+    private function validate($parameters, $options){
+        if(is_array($this->definations['parameters'])){
+            if(count($parameters) != count($this->definations['parameters'])){
+                echo "\n - Faltan parametros. \n";
+                echo $this->getHelpTask(). " \n";
+                die();
+            }
+        }
+
+        if(is_array($this->definations['options'])){
+            foreach($this->definations['options'] as $key => $option){
+
+                if($option['type'] == self::OPTIONAL){
+                    if(!isset($options[$key]) && isset($option['default'])){
+                        $options[$key] = $option['default'];
+                    }
+                } else {
+                    if(!isset($options[$key])){
+                        echo "\n - Faltan opciones. \n";
+                        echo $this->getHelpTask(). " \n";
+                        die;
+                    }
+                }
+
+            }
+        }
+
+        return true;
+    }
+
+    public function run($options, $parameters){
+        $this->validate($parameters, $options);
+        $this->execute($parameters, $options);
+    }
+
 }
