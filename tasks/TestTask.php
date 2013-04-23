@@ -1,7 +1,6 @@
 <?php
 /**
- * Created by Nemogroup.
- * @author: Marcelo Agüero <marcelo.aguero@nemogroup.net>
+ * @author: Marcelo Agüero <marcelogaguero@hotmail.com>
  * @since: 23/04/13 08:32
  */
 namespace tasks;
