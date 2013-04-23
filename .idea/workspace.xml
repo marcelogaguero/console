@@ -46,7 +46,7 @@
       <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.35101405">
+            <state line="54" column="31" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.2636505">
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
       <file leaf-file-name="Test3Task.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/Test3Task.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.5">
+            <state line="28" column="5" selection-start="653" selection-end="653" vertical-scroll-proportion="-17.5">
               <folding>
                 <element signature="e#6#122#0" expanded="true" />
               </folding>
@@ -88,7 +88,7 @@
       <file leaf-file-name="TestTask.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/TestTask.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="150" selection-end="166" vertical-scroll-proportion="-5.625">
+            <state line="32" column="44" selection-start="904" selection-end="904" vertical-scroll-proportion="-20.0">
               <folding>
                 <element signature="e#6#95#0" expanded="true" />
               </folding>
@@ -293,7 +293,11 @@
       <created>1366736232729</created>
       <updated>1366736232729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Composer">
+      <created>1366736995605</created>
+      <updated>1366736995605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -382,29 +386,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tasks/TestTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="150" selection-end="166" vertical-scroll-proportion="-5.625">
-          <folding>
-            <element signature="e#6#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/Test2Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="96" selection-end="133" vertical-scroll-proportion="-3.125">
           <folding>
             <element signature="e#6#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/Test3Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.5">
-          <folding>
-            <element signature="e#6#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -418,9 +404,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="444" selection-end="449" vertical-scroll-proportion="0.0">
+        <state line="3" column="43" selection-start="80" selection-end="120" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
@@ -434,16 +420,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="80" selection-end="120" vertical-scroll-proportion="-1.875">
+        <state line="16" column="14" selection-start="444" selection-end="449" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TestTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="44" selection-start="904" selection-end="904" vertical-scroll-proportion="-20.0">
+          <folding>
+            <element signature="e#6#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/Test3Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="653" selection-end="653" vertical-scroll-proportion="-17.5">
+          <folding>
+            <element signature="e#6#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.35101405">
+        <state line="54" column="31" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.2636505">
           <folding />
         </state>
       </provider>
