@@ -4,3 +4,12 @@ INSTALACIÓN
 
 ================================================================================================
 
+1 ) Copiar el archivo /vendor/mga/console/console en el raiz del proyecto.
+2 ) Las tareas se deben agregar en el directorio /vendor/mga/console/tasks o podras modificar la ruta al directorio de tareas
+
+        $console->setDirectoryTask($newPathDir);
+
+3) Desde una consola de tu sistema operativo veras las tareas disponibles
+
+        php console
+
