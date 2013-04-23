@@ -15,8 +15,5 @@
     },
     "autoload": {
         "psr-0": {"Console": "core/"}
-    },
-    "extra": {
-        "class": "mga\\console\\core\\Console"
     }
 }
