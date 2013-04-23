@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskBase.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TaskBase.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/TaskBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="50" selection-start="4692" selection-end="4692" vertical-scroll-proportion="0.76489025">
+            <state line="140" column="50" selection-start="4692" selection-end="4692" vertical-scroll-proportion="-20.333334">
               <folding>
                 <element signature="e#6#95#0" expanded="true" />
               </folding>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test3Task.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Test3Task.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks/Test3Task.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="421" selection-end="421" vertical-scroll-proportion="-11.25">
+            <state line="18" column="48" selection-start="421" selection-end="421" vertical-scroll-proportion="0.41474655">
               <folding>
                 <element signature="e#6#122#0" expanded="true" />
               </folding>
@@ -366,15 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/Test3Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="421" selection-end="421" vertical-scroll-proportion="-11.25">
-          <folding>
-            <element signature="e#6#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/Test2Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="96" selection-end="133" vertical-scroll-proportion="-3.125">
@@ -395,9 +386,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/TaskBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="50" selection-start="4692" selection-end="4692" vertical-scroll-proportion="0.76489025">
+        <state line="140" column="50" selection-start="4692" selection-end="4692" vertical-scroll-proportion="-20.333334">
           <folding>
             <element signature="e#6#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/Test3Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="421" selection-end="421" vertical-scroll-proportion="0.41474655">
+          <folding>
+            <element signature="e#6#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
