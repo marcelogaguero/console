@@ -145,7 +145,6 @@ class Console
     }
 
     protected function init() {
-        $this->loadTask();
         $this->execute();
     }
 }
