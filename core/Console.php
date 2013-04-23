@@ -9,16 +9,28 @@ class Console
 {
     protected $argv;
     protected $tasks = array();
+    private $directory;
 
     function __construct($argv){
 
         require_once "TaskBase.php";
 
+        $this->setDirectoryTask(__DIR__.'/../tasks');
         $this->argv = $argv;
         $this->init($argv);
+
+    }
+
+
+    public function setDirectoryTask($dir){
+        if(!is_dir($dir)) throw new \Exception("Directorio de tareas invalido");
+        $this->directory = $dir;
+        $this->tasks = array();
+        $this->loadTask();
     }
 
     private function execute(){
+
         if(count($this->argv) == 1){
             $this->showAllHelps();
         } else {
@@ -76,23 +88,24 @@ class Console
     }
 
     protected function showAllHelps(){
+
         foreach($this->tasks as $key => $group){
             echo "\n " . $key .": \n";
             foreach($group as $task){
                 echo "\t".$task->getSummary() ."\n";
             }
         }
+        
         echo "\n\n";
     }
 
     private function loadTask(){
-        $directory = __DIR__.'/../tasks';
 
-        if ($handle = opendir($directory)) {
+        if ($handle = opendir($this->directory)) {
 
             while (false !== ($file = readdir($handle))) {
                 if ($file != "." && $file != "..") {
-                    include_once($directory."/".$file);
+                    include_once($this->directory."/".$file);
                     $this->addTask($file);
                 }
             }
@@ -102,6 +115,7 @@ class Console
     }
 
     private function addTask($filename){
+
         $classname = substr($filename, 0, -4);
 
         $task = null;
@@ -112,6 +126,7 @@ class Console
         } else {
             $this->tasks[$task->getGroup()] = array($task);
         }
+
     }
 
     private function getTaskByName($taskname){
