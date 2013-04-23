@@ -6,6 +6,8 @@
 
 namespace {
 
-    $load = require "vendor/autoload.php";
+    // $load = require "vendor/autoload.php";
+    require "core/Console.php";
+
     $console = new \core\Console($argv);
 }

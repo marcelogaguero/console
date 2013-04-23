@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2b9c3b2-c03f-4a21-81e1-507520e088f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console" afterPath="$PROJECT_DIR$/console" />
     </list>
     <ignored path="console.iws" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="console" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.23809524">
+            <state line="9" column="31" selection-start="216" selection-end="216" vertical-scroll-proportion="-5.625">
               <folding>
                 <element signature="e#6#124#0" expanded="true" />
               </folding>
@@ -45,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="74" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+            <state line="25" column="40" selection-start="662" selection-end="662" vertical-scroll-proportion="0.5850234">
               <folding />
             </state>
           </provider>
@@ -57,7 +58,7 @@
       <file leaf-file-name="Console.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/Console.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="31" selection-start="3550" selection-end="3550" vertical-scroll-proportion="-20.0">
+            <state line="145" column="0" selection-start="3518" selection-end="3518" vertical-scroll-proportion="-90.625">
               <folding>
                 <element signature="e#6#95#0" expanded="true" />
               </folding>
@@ -125,11 +126,11 @@
         <option value="$PROJECT_DIR$/tasks/Test2Task.php" />
         <option value="$PROJECT_DIR$/tasks/TestTask.php" />
         <option value="$PROJECT_DIR$/core/TaskBase.php" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/tasks/Test3Task.php" />
         <option value="$PROJECT_DIR$/core/Console.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/console" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -347,7 +348,11 @@
       <created>1366742051359</created>
       <updated>1366742051359</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Composer">
+      <created>1366742114175</created>
+      <updated>1366742114175</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -359,7 +364,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31922525" sideWeight="0.56633383" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31922525" sideWeight="0.42368045" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31922525" sideWeight="0.42368045" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22955523" sideWeight="0.62339514" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -463,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="74" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/TestTask.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="39" selection-start="831" selection-end="842" vertical-scroll-proportion="-18.75">
@@ -486,21 +484,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="216" selection-end="216" vertical-scroll-proportion="-5.625">
+          <folding>
+            <element signature="e#6#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/Console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="31" selection-start="3550" selection-end="3550" vertical-scroll-proportion="-20.0">
+        <state line="145" column="0" selection-start="3518" selection-end="3518" vertical-scroll-proportion="-90.625">
           <folding>
             <element signature="e#6#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.23809524">
-          <folding>
-            <element signature="e#6#124#0" expanded="true" />
-          </folding>
+        <state line="25" column="40" selection-start="662" selection-end="662" vertical-scroll-proportion="0.5850234">
+          <folding />
         </state>
       </provider>
     </entry>
