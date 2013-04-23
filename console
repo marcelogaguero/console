@@ -1,0 +1,7 @@
+<?php
+
+require_once __DIR__."/core/Console.php";
+
+use \core\Console;
+$console = new Console($argv);
+
