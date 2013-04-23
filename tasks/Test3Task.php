@@ -15,7 +15,7 @@ class Test3Task extends TaskBase
         $definations = array(
             'group' => 'GrupoTest2',
             'name' => 'test',
-            'summary' => 'Otra mas',
+            'summary' => 'Otra mas 2',
             'description' => 'Deberia hacer algo',
             'parameters' => null,
             'options' => null
