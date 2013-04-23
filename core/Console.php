@@ -1,7 +1,6 @@
 <?php
 /**
- * Created by Nemogroup.
- * @author: Marcelo Agüero <marcelo.aguero@nemogroup.net>
+ * @author: Marcelo Agüero <marcelogaguero@hotmail.com>
  * @since: 22/04/13 13:58
  */
 namespace core;
