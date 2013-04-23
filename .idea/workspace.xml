@@ -37,7 +37,7 @@
       <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="463" selection-end="463" vertical-scroll-proportion="0.36697248">
+            <state line="14" column="5" selection-start="415" selection-end="415" vertical-scroll-proportion="0.32110092">
               <folding />
             </state>
           </provider>
@@ -319,7 +319,11 @@
       <created>1366738562100</created>
       <updated>1366738562100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Composer">
+      <created>1366738797262</created>
+      <updated>1366738797262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -469,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="463" selection-end="463" vertical-scroll-proportion="0.36697248">
+        <state line="14" column="5" selection-start="415" selection-end="415" vertical-scroll-proportion="0.32110092">
           <folding />
         </state>
       </provider>
