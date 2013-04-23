@@ -65,8 +65,9 @@ abstract class TaskBase
             } else {
                 if(isset($option['default'])){
                     $help .= "[-".$key."='' (default=".$option['default'].")]";
+                } else {
+                    $help .= "[-".$key."='']";
                 }
-                $help .= "[-".$key."='']";
             }
 
             $help .= " ";
