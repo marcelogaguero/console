@@ -3,7 +3,9 @@
  * Nota: Para cambiar el directorio donde se encuentran las tareas
  * $console->setDirectoryTask($newPathDir);
  */
+
 namespace {
-    require "core/Console.php";
+
+    $load = require "vendor/autoload.php";
     $console = new \core\Console($argv);
 }

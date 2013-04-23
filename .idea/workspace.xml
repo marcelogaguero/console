@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2b9c3b2-c03f-4a21-81e1-507520e088f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console" afterPath="$PROJECT_DIR$/console" />
     </list>
     <ignored path="console.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="console" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="211" selection-end="211" vertical-scroll-proportion="0.1904762">
+            <state line="10" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.23809524">
               <folding>
                 <element signature="e#6#124#0" expanded="true" />
               </folding>
@@ -127,8 +128,8 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/tasks/Test3Task.php" />
         <option value="$PROJECT_DIR$/core/Console.php" />
-        <option value="$PROJECT_DIR$/console" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/console" />
       </list>
     </option>
   </component>
@@ -342,7 +343,11 @@
       <created>1366741959720</created>
       <updated>1366741959720</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Composer">
+      <created>1366742051359</created>
+      <updated>1366742051359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="211" selection-end="211" vertical-scroll-proportion="0.1904762">
+        <state line="10" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.23809524">
           <folding>
             <element signature="e#6#124#0" expanded="true" />
           </folding>
