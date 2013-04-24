@@ -19,6 +19,8 @@ abstract class TaskBase
         'options' => null
     );
 
+    private $context;
+
     function __construct(){
         $this->setDefination();
     }
@@ -156,4 +158,11 @@ abstract class TaskBase
         $this->execute($parameters, $options);
     }
 
+    public function setContext($context){
+        $this->context = $context;
+    }
+
+    protected function getContext(){
+        return $this->context;
+    }
 }

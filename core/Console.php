@@ -11,6 +11,8 @@ class Console
     protected $tasks = array();
     private $directory;
     private $namespace;
+    private $context;
+
 
     function __construct($argv, $dir = false, $namespace = false){
 
@@ -22,6 +24,10 @@ class Console
         $this->setDirectoryTask($dir, $namespace);
         $this->argv = $argv;
         $this->init($argv);
+    }
+
+    public function setContext($context){
+        $this->context = $context;
     }
 
 
