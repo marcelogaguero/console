@@ -46,11 +46,15 @@ USO
 
         php console -h Group:TaskName
 
-3 ) Para crear una tarea debes crear una nueva clase que extiend la clase TaskBase
+________________________________________________________________________________________________
+CREAR UNA TAREA
+================================================================================================
+
+1 ) Para crear una tarea debes crear una nueva clase que extiend la clase TaskBase
 
        ver ejemplo /vendor/mga/console/tasks/TestTask.php
 
-4 ) Parametros y opciones
+2 ) Parametros y opciones
 
         Para definir una tarea se debe implementar los metodos setDefination() y execute()
         el metodo setDefination seteara las definiciones de la tarea con el arreglo definiciones

@@ -50,7 +50,7 @@
       <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="53" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.86404836">
+            <state line="85" column="53" selection-start="3066" selection-end="3066" vertical-scroll-proportion="0.86404836">
               <folding />
             </state>
           </provider>
@@ -356,7 +356,11 @@
       <created>1366802104547</created>
       <updated>1366802104547</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Composer">
+      <created>1366803226667</created>
+      <updated>1366803226667</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="53" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.86404836">
+        <state line="85" column="53" selection-start="3066" selection-end="3066" vertical-scroll-proportion="0.86404836">
           <folding />
         </state>
       </provider>
