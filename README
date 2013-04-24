@@ -31,7 +31,7 @@ INSTALACIÓN
 
 5 ) Las tareas se deben agregar en el directorio /vendor/mga/console/tasks o podras modificar la ruta al directorio de tareas
 
-        $console->setDirectoryTask($newPathDir);
+        $console = new \core\Console($argv, __DIR__."/task/", "\\task\\");
 
 
 ________________________________________________________________________________________________
@@ -42,10 +42,41 @@ USO
 
         php console
 
-2 ) Para crear una tarea debes crear una nueva clase que extiend la clase TaskBase
+2 ) Para ver la ayuda de una tarea en particular ingresar el paramerto -h antes del nombre de la tarea
+
+        php console -h Group:TaskName
+
+3 ) Para crear una tarea debes crear una nueva clase que extiend la clase TaskBase
 
        ver ejemplo /vendor/mga/console/tasks/TestTask.php
 
-3 ) Parametros y opciones
+4 ) Parametros y opciones
 
-        Pendiente de documentar
+        Para definir una tarea se debe implementar los metodos setDefination() y execute()
+        el metodo setDefination seteara las definiciones de la tarea con el arreglo definiciones
+
+            $this->setConfig($definations);
+
+        El arreglo de definiciones ($definations) tiene los siguientes valores
+
+             group:      Nombre del grupo que pertenece la tarea
+             name:       Nombre de la tarea
+             summary:    Descripcion corta aparece cuando se muestran todas las tareas
+             parameters: Arreglo de parametros
+             options:    Arreglo de opciones
+
+        Los parametros nunca son opcionales, especificaciones, la clave del arreglo de parametros es
+        el nombre del parametro ejemplo:
+
+             'module' => array('help' => 'Modulo hacer algo'),
+
+             help: Ayuda de que es el valor a ingresar en el parametro
+
+        Las opciones pueden ser opcionales o obligatorios, la clave del arreglo de opciones es
+        el nombre de la opción,
+
+            'env' => array('default' => 'dev', 'type'=>self::OPTIONAL, 'help' => 'ambiente')
+
+            default:  Valor por omision
+            type:     Tipo del parametro [self::OPTIONAL|self::MANDATORY]
+            help:     Ayuda para que se usa la opción
