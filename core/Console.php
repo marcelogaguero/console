@@ -12,11 +12,14 @@ class Console
     private $directory;
     private $namespace;
 
-    function __construct($argv){
+    function __construct($argv, $dir = false, $namespace = false){
 
         require_once "TaskBase.php";
 
-        $this->setDirectoryTask(__DIR__.'/../tasks', '\\tasks\\');
+        $dir = ($dir == false) ? __DIR__.'/../tasks' : $dir;
+        $namespace = ($namespace == false) ? '\\tasks\\' : $namespace;
+
+        $this->setDirectoryTask($dir, $namespace);
         $this->argv = $argv;
         $this->init($argv);
     }
