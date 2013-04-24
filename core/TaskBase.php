@@ -150,11 +150,11 @@ abstract class TaskBase
             }
         }
 
-        return true;
+        return $options;
     }
 
     public function run($options, $parameters){
-        $this->validate($parameters, $options);
+        $options = $this->validate($parameters, $options);
         $this->execute($parameters, $options);
     }
 
