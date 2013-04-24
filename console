@@ -9,5 +9,5 @@ namespace {
     // $load = require "vendor/autoload.php";
     require "core/Console.php";
 
-    $console = new \core\Console($argv);
+    $console = new \core\Console($argv, '\\tasks\\');
 }

@@ -10,19 +10,20 @@ class Console
     protected $argv;
     protected $tasks = array();
     private $directory;
+    private $namespace;
 
     function __construct($argv){
 
         require_once "TaskBase.php";
 
-        $this->setDirectoryTask(__DIR__.'/../tasks');
+        $this->setDirectoryTask(__DIR__.'/../tasks', '\\tasks\\');
         $this->argv = $argv;
         $this->init($argv);
-
     }
 
 
-    public function setDirectoryTask($dir){
+    public function setDirectoryTask($dir, $namespace){
+        $this->namespace = $namespace;
         if(!is_dir($dir)) throw new \Exception("Directorio de tareas invalido");
         $this->directory = $dir;
         $this->tasks = array();
@@ -119,7 +120,7 @@ class Console
         $classname = substr($filename, 0, -4);
 
         $task = null;
-        eval('$task = new \\tasks\\'.$classname.'();');
+        eval('$task = new '.$this->namespace.$classname.'();');
 
         if(isset($this->tasks[$task->getGroup()])){
             $this->tasks[$task->getGroup()][] = $task;
